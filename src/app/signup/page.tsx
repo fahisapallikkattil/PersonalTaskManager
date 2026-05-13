@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from "react";
@@ -27,7 +26,7 @@ export default function SignupPage() {
       await createUserWithEmailAndPassword(auth, email, password);
       toast({
         title: "Account created!",
-        description: "Welcome to PrimeTaskManager.",
+        description: "Welcome to PersonalTaskManager.",
       });
       router.push("/dashboard");
     } catch (error: any) {

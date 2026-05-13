@@ -1,12 +1,11 @@
-
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { AuthProvider } from "@/components/auth-provider";
 
 export const metadata: Metadata = {
-  title: 'PrimeTaskManager | Personal Task Manager',
-  description: 'Manage your daily tasks efficiently with PrimeTaskManager.',
+  title: 'PersonalTaskManager | Your Tasks, Your Way',
+  description: 'Manage your daily tasks efficiently with PersonalTaskManager.',
 };
 
 export default function RootLayout({

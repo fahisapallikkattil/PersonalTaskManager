@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useEffect, useState } from "react";
@@ -239,7 +238,7 @@ export default function DashboardPage() {
       <header className="sticky top-0 z-10 px-4 lg:px-8 h-16 flex items-center border-b bg-card/80 backdrop-blur-md">
         <div className="flex items-center gap-2">
           <CheckCircle2 className="h-6 w-6 text-primary" />
-          <span className="font-headline font-bold text-xl tracking-tight text-primary">PrimeTaskManager</span>
+          <span className="font-headline font-bold text-xl tracking-tight text-primary">PersonalTaskManager</span>
         </div>
         <div className="ml-auto flex items-center gap-4">
           <span className="hidden sm:inline-block text-sm text-muted-foreground">{user?.email}</span>
