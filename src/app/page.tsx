@@ -17,7 +17,7 @@ export default function Home() {
       <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-card">
         <Link className="flex items-center justify-center gap-2" href="/">
           <CheckCircle2 className="h-6 w-6 text-primary" />
-          <span className="font-headline font-bold text-xl tracking-tight text-primary">PrimeTask</span>
+          <span className="font-headline font-bold text-xl tracking-tight text-primary">PrimeTaskManager</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
           {user ? (
@@ -43,7 +43,7 @@ export default function Home() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-foreground">
-                    Master Your Day with <span className="text-primary">PrimeTask</span>
+                    Master Your Day with <span className="text-primary">PrimeTaskManager</span>
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
                     The simple, secure, and AI-powered task manager for personal productivity. Organize your life, one task at a time.
@@ -102,7 +102,7 @@ export default function Home() {
       <footer className="w-full py-6 px-4 md:px-6 border-t bg-card">
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4 mx-auto">
           <p className="text-xs text-muted-foreground">
-            © 2024 PrimeTask. All rights reserved.
+            © 2024 PrimeTaskManager. All rights reserved.
           </p>
           <nav className="flex gap-4 sm:gap-6">
             <Link className="text-xs hover:underline underline-offset-4 text-muted-foreground" href="#">

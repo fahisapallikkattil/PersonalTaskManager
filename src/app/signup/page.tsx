@@ -27,7 +27,7 @@ export default function SignupPage() {
       await createUserWithEmailAndPassword(auth, email, password);
       toast({
         title: "Account created!",
-        description: "Welcome to PrimeTask.",
+        description: "Welcome to PrimeTaskManager.",
       });
       router.push("/dashboard");
     } catch (error: any) {
