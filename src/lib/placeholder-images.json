@@ -1,3 +1,16 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-tasks",
+      "description": "A clean productivity workspace with a laptop and tasks",
+      "imageUrl": "https://picsum.photos/seed/prime-task-1/1200/800",
+      "imageHint": "productivity workspace"
+    },
+    {
+      "id": "empty-tasks",
+      "description": "An empty list illustration",
+      "imageUrl": "https://picsum.photos/seed/prime-task-2/400/300",
+      "imageHint": "empty list"
+    }
+  ]
 }
